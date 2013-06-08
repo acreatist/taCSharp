@@ -1,0 +1,6 @@
+F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\SortNumbers\bin\Debug\SortNumbers.exe.config
+F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\SortNumbers\bin\Debug\SortNumbers.exe
+F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\SortNumbers\bin\Debug\SortNumbers.pdb
+F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\SortNumbers\obj\Debug\SortNumbers.csprojResolveAssemblyReference.cache
+F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\SortNumbers\obj\Debug\SortNumbers.exe
+F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\SortNumbers\obj\Debug\SortNumbers.pdb

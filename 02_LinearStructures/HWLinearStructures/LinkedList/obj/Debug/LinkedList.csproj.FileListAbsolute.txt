@@ -1,0 +1,5 @@
+F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\LinkedList\bin\Debug\LinkedList.dll
+F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\LinkedList\bin\Debug\LinkedList.pdb
+F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\LinkedList\obj\Debug\LinkedList.csprojResolveAssemblyReference.cache
+F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\LinkedList\obj\Debug\LinkedList.dll
+F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\LinkedList\obj\Debug\LinkedList.pdb

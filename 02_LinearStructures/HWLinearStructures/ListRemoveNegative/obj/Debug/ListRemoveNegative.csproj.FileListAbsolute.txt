@@ -1,0 +1,6 @@
+F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\ListRemoveNegative\bin\Debug\ListRemoveNegative.exe.config
+F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\ListRemoveNegative\bin\Debug\ListRemoveNegative.exe
+F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\ListRemoveNegative\bin\Debug\ListRemoveNegative.pdb
+F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\ListRemoveNegative\obj\Debug\ListRemoveNegative.csprojResolveAssemblyReference.cache
+F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\ListRemoveNegative\obj\Debug\ListRemoveNegative.exe
+F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\ListRemoveNegative\obj\Debug\ListRemoveNegative.pdb

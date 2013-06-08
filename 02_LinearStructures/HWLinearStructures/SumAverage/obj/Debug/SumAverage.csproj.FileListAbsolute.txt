@@ -1,0 +1,6 @@
+F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\SumAverage\bin\Debug\SumAverage.exe.config
+F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\SumAverage\bin\Debug\SumAverage.exe
+F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\SumAverage\bin\Debug\SumAverage.pdb
+F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\SumAverage\obj\Debug\SumAverage.csprojResolveAssemblyReference.cache
+F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\SumAverage\obj\Debug\SumAverage.exe
+F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\SumAverage\obj\Debug\SumAverage.pdb

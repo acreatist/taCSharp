@@ -1,0 +1,6 @@
+F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

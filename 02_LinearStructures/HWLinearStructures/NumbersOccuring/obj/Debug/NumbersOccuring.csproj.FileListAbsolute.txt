@@ -1,0 +1,6 @@
+F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\NumbersOccuring\bin\Debug\NumbersOccuring.exe.config
+F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\NumbersOccuring\bin\Debug\NumbersOccuring.exe
+F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\NumbersOccuring\bin\Debug\NumbersOccuring.pdb
+F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\NumbersOccuring\obj\Debug\NumbersOccuring.csprojResolveAssemblyReference.cache
+F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\NumbersOccuring\obj\Debug\NumbersOccuring.exe
+F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\NumbersOccuring\obj\Debug\NumbersOccuring.pdb
