@@ -4,3 +4,9 @@ F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStruct
 F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\EqualSubsequence\obj\Debug\EqualSubsequence.csprojResolveAssemblyReference.cache
 F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\EqualSubsequence\obj\Debug\EqualSubsequence.exe
 F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\EqualSubsequence\obj\Debug\EqualSubsequence.pdb
+D:\Telerik Academy\Telerik CSharp Track\Homeworks\02_LinearStructures\HWLinearStructures\EqualSubsequence\bin\Debug\EqualSubsequence.exe.config
+D:\Telerik Academy\Telerik CSharp Track\Homeworks\02_LinearStructures\HWLinearStructures\EqualSubsequence\bin\Debug\EqualSubsequence.exe
+D:\Telerik Academy\Telerik CSharp Track\Homeworks\02_LinearStructures\HWLinearStructures\EqualSubsequence\bin\Debug\EqualSubsequence.pdb
+D:\Telerik Academy\Telerik CSharp Track\Homeworks\02_LinearStructures\HWLinearStructures\EqualSubsequence\obj\Debug\EqualSubsequence.csprojResolveAssemblyReference.cache
+D:\Telerik Academy\Telerik CSharp Track\Homeworks\02_LinearStructures\HWLinearStructures\EqualSubsequence\obj\Debug\EqualSubsequence.exe
+D:\Telerik Academy\Telerik CSharp Track\Homeworks\02_LinearStructures\HWLinearStructures\EqualSubsequence\obj\Debug\EqualSubsequence.pdb

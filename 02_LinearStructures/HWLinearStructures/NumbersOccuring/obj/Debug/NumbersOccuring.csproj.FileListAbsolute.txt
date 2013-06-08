@@ -4,3 +4,9 @@ F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStruct
 F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\NumbersOccuring\obj\Debug\NumbersOccuring.csprojResolveAssemblyReference.cache
 F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\NumbersOccuring\obj\Debug\NumbersOccuring.exe
 F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\NumbersOccuring\obj\Debug\NumbersOccuring.pdb
+D:\Telerik Academy\Telerik CSharp Track\Homeworks\02_LinearStructures\HWLinearStructures\NumbersOccuring\bin\Debug\NumbersOccuring.exe.config
+D:\Telerik Academy\Telerik CSharp Track\Homeworks\02_LinearStructures\HWLinearStructures\NumbersOccuring\bin\Debug\NumbersOccuring.exe
+D:\Telerik Academy\Telerik CSharp Track\Homeworks\02_LinearStructures\HWLinearStructures\NumbersOccuring\bin\Debug\NumbersOccuring.pdb
+D:\Telerik Academy\Telerik CSharp Track\Homeworks\02_LinearStructures\HWLinearStructures\NumbersOccuring\obj\Debug\NumbersOccuring.csprojResolveAssemblyReference.cache
+D:\Telerik Academy\Telerik CSharp Track\Homeworks\02_LinearStructures\HWLinearStructures\NumbersOccuring\obj\Debug\NumbersOccuring.exe
+D:\Telerik Academy\Telerik CSharp Track\Homeworks\02_LinearStructures\HWLinearStructures\NumbersOccuring\obj\Debug\NumbersOccuring.pdb

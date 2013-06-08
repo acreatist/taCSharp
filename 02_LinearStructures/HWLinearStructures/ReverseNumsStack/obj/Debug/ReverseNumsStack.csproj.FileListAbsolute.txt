@@ -4,3 +4,9 @@ F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStruct
 F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\ReverseNumsStack\obj\Debug\ReverseNumsStack.csprojResolveAssemblyReference.cache
 F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\ReverseNumsStack\obj\Debug\ReverseNumsStack.exe
 F:\Other\Telerik\Telerik_DSA\1.3. Linear Data Structures\Homework\HWLinearStructures\ReverseNumsStack\obj\Debug\ReverseNumsStack.pdb
+D:\Telerik Academy\Telerik CSharp Track\Homeworks\02_LinearStructures\HWLinearStructures\ReverseNumsStack\bin\Debug\ReverseNumsStack.exe.config
+D:\Telerik Academy\Telerik CSharp Track\Homeworks\02_LinearStructures\HWLinearStructures\ReverseNumsStack\bin\Debug\ReverseNumsStack.exe
+D:\Telerik Academy\Telerik CSharp Track\Homeworks\02_LinearStructures\HWLinearStructures\ReverseNumsStack\bin\Debug\ReverseNumsStack.pdb
+D:\Telerik Academy\Telerik CSharp Track\Homeworks\02_LinearStructures\HWLinearStructures\ReverseNumsStack\obj\Debug\ReverseNumsStack.csprojResolveAssemblyReference.cache
+D:\Telerik Academy\Telerik CSharp Track\Homeworks\02_LinearStructures\HWLinearStructures\ReverseNumsStack\obj\Debug\ReverseNumsStack.exe
+D:\Telerik Academy\Telerik CSharp Track\Homeworks\02_LinearStructures\HWLinearStructures\ReverseNumsStack\obj\Debug\ReverseNumsStack.pdb

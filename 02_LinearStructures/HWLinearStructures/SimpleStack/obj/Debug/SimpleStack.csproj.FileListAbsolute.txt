@@ -1,0 +1,5 @@
+D:\Telerik Academy\Telerik CSharp Track\Homeworks\02_LinearStructures\HWLinearStructures\SimpleStack\bin\Debug\SimpleStack.dll
+D:\Telerik Academy\Telerik CSharp Track\Homeworks\02_LinearStructures\HWLinearStructures\SimpleStack\bin\Debug\SimpleStack.pdb
+D:\Telerik Academy\Telerik CSharp Track\Homeworks\02_LinearStructures\HWLinearStructures\SimpleStack\obj\Debug\SimpleStack.csprojResolveAssemblyReference.cache
+D:\Telerik Academy\Telerik CSharp Track\Homeworks\02_LinearStructures\HWLinearStructures\SimpleStack\obj\Debug\SimpleStack.dll
+D:\Telerik Academy\Telerik CSharp Track\Homeworks\02_LinearStructures\HWLinearStructures\SimpleStack\obj\Debug\SimpleStack.pdb
