@@ -6,3 +6,11 @@ F:\Other\Telerik\Telerik_DSA\2. Trees and Traversals\Homework\HWTrees\WindowsFol
 F:\Other\Telerik\Telerik_DSA\2. Trees and Traversals\Homework\HWTrees\WindowsFolder.Demo\obj\Debug\WindowsFolder.Demo.pdb
 F:\Other\Telerik\Telerik_DSA\2. Trees and Traversals\Homework\HWTrees\WindowsFolder.Demo\bin\Debug\WindowsFolder.Tree.dll
 F:\Other\Telerik\Telerik_DSA\2. Trees and Traversals\Homework\HWTrees\WindowsFolder.Demo\bin\Debug\WindowsFolder.Tree.pdb
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\03_DataTrees\WindowsFolder.Demo\bin\Debug\WindowsFolder.Demo.exe.config
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\03_DataTrees\WindowsFolder.Demo\obj\Debug\WindowsFolder.Demo.exe
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\03_DataTrees\WindowsFolder.Demo\obj\Debug\WindowsFolder.Demo.pdb
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\03_DataTrees\WindowsFolder.Demo\bin\Debug\WindowsFolder.Demo.exe
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\03_DataTrees\WindowsFolder.Demo\bin\Debug\WindowsFolder.Demo.pdb
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\03_DataTrees\WindowsFolder.Demo\bin\Debug\WindowsFolder.Tree.dll
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\03_DataTrees\WindowsFolder.Demo\bin\Debug\WindowsFolder.Tree.pdb
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\03_DataTrees\WindowsFolder.Demo\obj\Debug\WindowsFolder.Demo.csprojResolveAssemblyReference.cache

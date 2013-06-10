@@ -12,10 +12,13 @@ namespace WindowsFolder.Demo
     {
         static void Main(string[] args)
         {
-            string rootDirectory = @"C:\Brother";
+            string rootDirectory = @"C:\Windows";
 
             TreeItem<string> rootFolder = new TreeItem<string>(rootDirectory);
-            
+
+            Console.WriteLine("Getting items in {0}, this can take a while", rootDirectory);
+            Console.WriteLine();
+
             PopulateFolders(rootDirectory, rootFolder);
 
             Tree<string> foldersTree = new Tree<string>(rootFolder);
@@ -23,6 +26,9 @@ namespace WindowsFolder.Demo
             List<string> exeFiles = new List<string>();
 
             FindExeFile(exeFiles, foldersTree.Root);
+
+            Console.WriteLine();
+            Console.WriteLine("Found {0} .exe files", exeFiles.Count);
         }
   
         private static void PopulateFolders(string dirName, TreeItem<string> parentFolder)
@@ -43,7 +49,12 @@ namespace WindowsFolder.Demo
                 {
                     continue;
                 }
-
+                catch (UnauthorizedAccessException)
+                {
+                    Console.WriteLine("LOG: No access to folder {0}", dirName);
+                    continue;
+                }
+                
                 PopulateFolders(folderItem, folderSubItem);
             }
         }

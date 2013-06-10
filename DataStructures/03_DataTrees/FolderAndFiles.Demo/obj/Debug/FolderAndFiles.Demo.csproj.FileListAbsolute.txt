@@ -1,0 +1,8 @@
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\03_DataTrees\FolderAndFiles.Demo\bin\Debug\FolderAndFiles.Demo.exe.config
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\03_DataTrees\FolderAndFiles.Demo\obj\Debug\FolderAndFiles.Demo.csprojResolveAssemblyReference.cache
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\03_DataTrees\FolderAndFiles.Demo\bin\Debug\FolderAndFiles.Demo.exe
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\03_DataTrees\FolderAndFiles.Demo\bin\Debug\FolderAndFiles.Demo.pdb
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\03_DataTrees\FolderAndFiles.Demo\bin\Debug\FolderAndFiles.Common.dll
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\03_DataTrees\FolderAndFiles.Demo\bin\Debug\FolderAndFiles.Common.pdb
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\03_DataTrees\FolderAndFiles.Demo\obj\Debug\FolderAndFiles.Demo.exe
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\03_DataTrees\FolderAndFiles.Demo\obj\Debug\FolderAndFiles.Demo.pdb
