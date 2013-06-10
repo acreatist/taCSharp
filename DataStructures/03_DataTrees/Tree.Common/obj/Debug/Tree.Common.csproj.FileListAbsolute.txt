@@ -1,0 +1,5 @@
+F:\Other\Telerik\Telerik_DSA\2. Trees and Traversals\Homework\HWTrees\Tree.Common\bin\Debug\Tree.Common.dll
+F:\Other\Telerik\Telerik_DSA\2. Trees and Traversals\Homework\HWTrees\Tree.Common\bin\Debug\Tree.Common.pdb
+F:\Other\Telerik\Telerik_DSA\2. Trees and Traversals\Homework\HWTrees\Tree.Common\obj\Debug\Tree.Common.csprojResolveAssemblyReference.cache
+F:\Other\Telerik\Telerik_DSA\2. Trees and Traversals\Homework\HWTrees\Tree.Common\obj\Debug\Tree.Common.dll
+F:\Other\Telerik\Telerik_DSA\2. Trees and Traversals\Homework\HWTrees\Tree.Common\obj\Debug\Tree.Common.pdb

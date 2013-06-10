@@ -1,0 +1,5 @@
+F:\Other\Telerik\Telerik_DSA\2. Trees and Traversals\Homework\HWTrees\WindowsFOlder.Tree\bin\Debug\WindowsFolder.Tree.dll
+F:\Other\Telerik\Telerik_DSA\2. Trees and Traversals\Homework\HWTrees\WindowsFOlder.Tree\bin\Debug\WindowsFolder.Tree.pdb
+F:\Other\Telerik\Telerik_DSA\2. Trees and Traversals\Homework\HWTrees\WindowsFOlder.Tree\obj\Debug\WindowsFOlder.Tree.csprojResolveAssemblyReference.cache
+F:\Other\Telerik\Telerik_DSA\2. Trees and Traversals\Homework\HWTrees\WindowsFOlder.Tree\obj\Debug\WindowsFolder.Tree.dll
+F:\Other\Telerik\Telerik_DSA\2. Trees and Traversals\Homework\HWTrees\WindowsFOlder.Tree\obj\Debug\WindowsFolder.Tree.pdb
