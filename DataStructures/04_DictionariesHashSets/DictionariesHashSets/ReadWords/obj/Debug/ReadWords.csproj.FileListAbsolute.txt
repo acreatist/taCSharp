@@ -1,0 +1,6 @@
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\04_DictionariesHashSets\DictionariesHashSets\ReadWords\bin\Debug\ReadWords.exe.config
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\04_DictionariesHashSets\DictionariesHashSets\ReadWords\bin\Debug\ReadWords.exe
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\04_DictionariesHashSets\DictionariesHashSets\ReadWords\bin\Debug\ReadWords.pdb
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\04_DictionariesHashSets\DictionariesHashSets\ReadWords\obj\Debug\ReadWords.csprojResolveAssemblyReference.cache
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\04_DictionariesHashSets\DictionariesHashSets\ReadWords\obj\Debug\ReadWords.exe
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\04_DictionariesHashSets\DictionariesHashSets\ReadWords\obj\Debug\ReadWords.pdb

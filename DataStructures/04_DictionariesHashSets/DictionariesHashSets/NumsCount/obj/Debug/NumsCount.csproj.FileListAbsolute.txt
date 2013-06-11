@@ -1,0 +1,6 @@
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\04_DictionariesHashSets\DictionariesHashSets\NumsCount\bin\Debug\NumsCount.exe.config
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\04_DictionariesHashSets\DictionariesHashSets\NumsCount\bin\Debug\NumsCount.exe
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\04_DictionariesHashSets\DictionariesHashSets\NumsCount\bin\Debug\NumsCount.pdb
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\04_DictionariesHashSets\DictionariesHashSets\NumsCount\obj\Debug\NumsCount.csprojResolveAssemblyReference.cache
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\04_DictionariesHashSets\DictionariesHashSets\NumsCount\obj\Debug\NumsCount.exe
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\04_DictionariesHashSets\DictionariesHashSets\NumsCount\obj\Debug\NumsCount.pdb

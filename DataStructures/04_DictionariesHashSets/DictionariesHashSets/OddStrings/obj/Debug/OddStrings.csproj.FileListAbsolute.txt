@@ -1,0 +1,5 @@
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\04_DictionariesHashSets\DictionariesHashSets\OddStrings\bin\Debug\OddStrings.exe.config
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\04_DictionariesHashSets\DictionariesHashSets\OddStrings\bin\Debug\OddStrings.exe
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\04_DictionariesHashSets\DictionariesHashSets\OddStrings\bin\Debug\OddStrings.pdb
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\04_DictionariesHashSets\DictionariesHashSets\OddStrings\obj\Debug\OddStrings.exe
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\04_DictionariesHashSets\DictionariesHashSets\OddStrings\obj\Debug\OddStrings.pdb
