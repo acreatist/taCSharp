@@ -1,0 +1,8 @@
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\04_DictionariesHashSets\DictionariesHashSets\SimpleHashTable\bin\Debug\SimpleHashTable.exe.config
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\04_DictionariesHashSets\DictionariesHashSets\SimpleHashTable\bin\Debug\SimpleHashTable.exe
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\04_DictionariesHashSets\DictionariesHashSets\SimpleHashTable\bin\Debug\SimpleHashTable.pdb
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\04_DictionariesHashSets\DictionariesHashSets\SimpleHashTable\bin\Debug\SimpleHashTable.Common.dll
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\04_DictionariesHashSets\DictionariesHashSets\SimpleHashTable\bin\Debug\SimpleHashTable.Common.pdb
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\04_DictionariesHashSets\DictionariesHashSets\SimpleHashTable\obj\Debug\SimpleHashTable.Demo.csprojResolveAssemblyReference.cache
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\04_DictionariesHashSets\DictionariesHashSets\SimpleHashTable\obj\Debug\SimpleHashTable.exe
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\04_DictionariesHashSets\DictionariesHashSets\SimpleHashTable\obj\Debug\SimpleHashTable.pdb

@@ -1,0 +1,1 @@
+F:\Other\Telerik\Telerik CSharp Track\Homeworks\DataStructures\04_DictionariesHashSets\DictionariesHashSets\SimpleHashTable\bin\Debug\SimpleHashTable.exe.config
