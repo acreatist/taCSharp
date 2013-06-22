@@ -7,7 +7,8 @@ using Wintellect.PowerCollections;
 
 namespace PeshoFriends
 {
-    class Facility : IComparable
+    // Graph node class
+    class Facility : IComparable<Facility>
     {
         public int ID { get; set; }
         public double Distance { get; set; }
@@ -20,7 +21,22 @@ namespace PeshoFriends
             this.IsHospital = false;
         }
 
-        public int CompareTo(object compareNode)
+        public override int GetHashCode()
+        {
+            return this.ID.GetHashCode();
+        }
+
+        public override bool Equals(object obj)
+        {
+            return this.Equals(obj as Facility);
+        }
+
+        public bool Equals(Facility other)
+        {
+            return this.ID.Equals(other.ID);
+        }
+
+        public int CompareTo(Facility compareNode)
         {
             int compare = this.Distance.CompareTo((compareNode as Facility).Distance);
             
@@ -28,6 +44,7 @@ namespace PeshoFriends
         }
     }
 
+    // Graph edge class
     class Street
     {
         public Facility LinkedFacility { get; set; }
@@ -40,6 +57,7 @@ namespace PeshoFriends
         }
     }
 
+    // Main Programm
     class Program
     {
         static void Main(string[] args)
@@ -116,6 +134,11 @@ namespace PeshoFriends
             {
                 FindClosestHospital(map, hospital);
 
+                foreach (var item in facilities)
+                {
+                    Console.WriteLine("{0} -> {1} = {2}", hospital.ID, item.ID, item.Distance);
+                }
+
                 for (int i = 0; i < facilities.Count; i++)
                 {
                     if (!facilities[i].IsHospital)
@@ -133,25 +156,26 @@ namespace PeshoFriends
             Console.WriteLine(minDistance);
         }
 
+        // Dijkstra Find shortest path
         private static void FindClosestHospital(Dictionary<Facility, List<Street>> map, Facility hospital)
         {
-            PriorityQueue<Facility> cleanedFacilities = new PriorityQueue<Facility>();
+            PriorityQueue<Facility> queue = new PriorityQueue<Facility>();
             
             foreach (var streetFacility in map)
             {
                 if (hospital.ID != streetFacility.Key.ID)
                 {
                     streetFacility.Key.Distance = double.PositiveInfinity;
-                    cleanedFacilities.Enqueue(streetFacility.Key);                    
+                    queue.Enqueue(streetFacility.Key);                    
                 }
             }
              
             hospital.Distance = 0;
-            cleanedFacilities.Enqueue(hospital);
+            queue.Enqueue(hospital);
 
-            while (cleanedFacilities.Count > 0)
+            while (queue.Count > 0)
             {
-                Facility currFacility = cleanedFacilities.Peek();
+                Facility currFacility = queue.Peek();
             
                 if (currFacility.Distance == double.PositiveInfinity)
                 {
@@ -168,7 +192,7 @@ namespace PeshoFriends
                     }
                 }
 
-                cleanedFacilities.Dequeue();
+                queue.Dequeue();
             }
         }
     }

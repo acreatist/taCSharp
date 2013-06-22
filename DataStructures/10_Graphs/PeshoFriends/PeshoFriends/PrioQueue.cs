@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PeshoFriends
 {
-    public class PriorityQueue<T> where T : IComparable
+    public class PriorityQueue<T> where T : IComparable<T>
     {
         private T[] heap;
         private int index;
