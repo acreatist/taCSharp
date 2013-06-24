@@ -189,6 +189,10 @@ namespace PeshoFriends
                     if (pottentialDistance < linkedFacility.LinkedFacility.Distance)
                     {
                         linkedFacility.LinkedFacility.Distance = pottentialDistance;
+                        
+                        Facility next = new Facility(linkedFacility.LinkedFacility.ID);
+                        next.Distance = pottentialDistance;
+                        queue.Enqueue(next);
                     }
                 }
 
