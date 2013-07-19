@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="SimpleUsers.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="SimpleUsersStoreContainer">
+    <EntitySet Name="Groups" EntityType="SimpleUsers.Store.Groups" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Users" EntityType="SimpleUsers.Store.Users" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="UsersGroups" EntityType="SimpleUsers.Store.UsersGroups" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_UsersGroups_Users" Association="SimpleUsers.Store.FK_UsersGroups_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="UsersGroups" EntitySet="UsersGroups" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UsersGroups_Groups" Association="SimpleUsers.Store.FK_UsersGroups_Groups">
+      <End Role="Groups" EntitySet="Groups" />
+      <End Role="UsersGroups" EntitySet="UsersGroups" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Groups">
+    <Key>
+      <PropertyRef Name="groupId" />
+    </Key>
+    <Property Name="groupId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="userId" />
+    </Key>
+    <Property Name="userId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="username" Type="nvarchar(max)" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="userpass" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UsersGroups">
+    <Key>
+      <PropertyRef Name="Users_userId" />
+      <PropertyRef Name="Groups_groupId" />
+    </Key>
+    <Property Name="Users_userId" Type="int" Nullable="false" />
+    <Property Name="Groups_groupId" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_UsersGroups_Users">
+    <End Role="Users" Type="SimpleUsers.Store.Users" Multiplicity="1" />
+    <End Role="UsersGroups" Type="SimpleUsers.Store.UsersGroups" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="userId" />
+      </Principal>
+      <Dependent Role="UsersGroups">
+        <PropertyRef Name="Users_userId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UsersGroups_Groups">
+    <End Role="UsersGroups" Type="SimpleUsers.Store.UsersGroups" Multiplicity="*" />
+    <End Role="Groups" Type="SimpleUsers.Store.Groups" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Groups">
+        <PropertyRef Name="groupId" />
+      </Principal>
+      <Dependent Role="UsersGroups">
+        <PropertyRef Name="Groups_groupId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="SimpleUsers" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+        <EntityContainer Name="SimpleUsersContainer" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Groups" EntityType="SimpleUsers.Groups" />
+          <EntitySet Name="Users" EntityType="SimpleUsers.Users" />
+          <AssociationSet Name="UsersGroups" Association="SimpleUsers.UsersGroups">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Groups" EntitySet="Groups" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="userId" />
+          </Key>
+          <Property Type="Int32" Name="userId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="username" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="userpass" Nullable="false" />
+          <NavigationProperty Name="Groups" Relationship="SimpleUsers.UsersGroups" FromRole="Users" ToRole="Groups" />
+        </EntityType>
+        <EntityType Name="Groups">
+          <Key>
+            <PropertyRef Name="groupId" />
+          </Key>
+          <Property Type="Int32" Name="groupId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Name" Nullable="false" />
+          <NavigationProperty Name="Users" Relationship="SimpleUsers.UsersGroups" FromRole="Groups" ToRole="Users" />
+        </EntityType>
+        <Association Name="UsersGroups">
+          <End Type="SimpleUsers.Users" Role="Users" Multiplicity="*" />
+          <End Type="SimpleUsers.Groups" Role="Groups" Multiplicity="*" />
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SimpleUsersStoreContainer" CdmEntityContainer="SimpleUsersContainer">
+    <EntitySetMapping Name="Groups">
+      <EntityTypeMapping TypeName="IsTypeOf(SimpleUsers.Groups)">
+        <MappingFragment StoreEntitySet="Groups">
+          <ScalarProperty Name="groupId" ColumnName="groupId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="IsTypeOf(SimpleUsers.Users)">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="userId" ColumnName="userId" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="userpass" ColumnName="userpass" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="UsersGroups" TypeName="SimpleUsers.UsersGroups" StoreEntitySet="UsersGroups">
+      <EndProperty Name="Users">
+        <ScalarProperty Name="userId" ColumnName="Users_userId" />
+      </EndProperty>
+      <EndProperty Name="Groups">
+        <ScalarProperty Name="groupId" ColumnName="Groups_groupId" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
