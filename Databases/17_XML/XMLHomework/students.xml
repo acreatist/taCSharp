@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stud:students xmlns:stud="urn:foo.com:StudentsNS">
+  <stud:student>
+    <stud:name>Student 1</stud:name>
+    <stud:sex>Male</stud:sex>
+    <stud:birthDate>01.01.1901</stud:birthDate>
+    <stud:phone>+359889889889</stud:phone>
+    <stud:email>student@student.org</stud:email>
+    <stud:course>2</stud:course>
+    <stud:specialty>Heavy Industry</stud:specialty>
+    <stud:facNumber>5648</stud:facNumber>
+    <stud:exams>
+      <stud:exam>
+        <stud:name>Chemistry</stud:name>
+        <stud:tutor>Tutor 1</stud:tutor>
+        <stud:score>3.65</stud:score>
+      </stud:exam>
+    </stud:exams>
+  </stud:student>
+  <stud:student>
+      <stud:name>Student 2</stud:name>
+      <stud:sex>Female</stud:sex>
+      <stud:birthDate>02.01.1901</stud:birthDate>
+      <stud:phone>+359999889889</stud:phone>
+      <stud:email>student2@student.org</stud:email>
+      <stud:course>3</stud:course>
+      <stud:specialty>Light Industry</stud:specialty>
+      <stud:facNumber>5649</stud:facNumber>
+      <stud:exams>
+        <stud:exam>
+          <stud:name>Chemistry</stud:name>
+          <stud:tutor>Tutor 2</stud:tutor>
+          <stud:score>5.98</stud:score>
+        </stud:exam>
+      </stud:exams>
+  </stud:student>
+</stud:students>
