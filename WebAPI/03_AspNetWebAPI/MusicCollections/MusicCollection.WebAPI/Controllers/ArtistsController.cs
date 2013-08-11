@@ -12,7 +12,7 @@ namespace MusicCollection.WebAPI.Controllers
 {
     public class ArtistsController : ApiController
     {
-        private IRepository<Artist> entityRepo;
+        private readonly IRepository<Artist> entityRepo;
 
         public ArtistsController()
         {
@@ -64,7 +64,9 @@ namespace MusicCollection.WebAPI.Controllers
                         Year = s.Year
                     }
                 )
-            }
+            };
+
+            return artistToReturn;
         }
 
         // POST
@@ -85,6 +87,34 @@ namespace MusicCollection.WebAPI.Controllers
             return response;
         }
         // PUT
+        public HttpResponseMessage PutArtist(int id, [FromBody]Artist item)
+        {
+            if (!ModelState.IsValid)
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ModelState);
+            }
+
+            if (id != item.ArtistId || item.ArtistId == 0)
+            {
+                return Request.CreateResponse(HttpStatusCode.BadRequest, "Must provide the AlbumId");
+            }
+
+            var updatedArtist = this.entityRepo.Update(id, item);
+
+            var response = Request.CreateResponse(HttpStatusCode.Accepted, updatedArtist);
+
+            return response;
+        }
+
         // DELETE
+        public HttpResponseMessage DeleteArtist(int id)
+        {
+            var artistToDelete = this.entityRepo.Get(id);
+            this.entityRepo.Delete(artistToDelete);
+
+            var response = Request.CreateResponse(HttpStatusCode.Accepted);
+
+            return response;
+        }
     }
 }

@@ -51,12 +51,12 @@ namespace MusicCollection.Repositories
 
         public Artist Get(int id)
         {
- 	        throw new NotImplementedException();
+            return this.entitySet.Find(id);
         }
 
         public IQueryable<Artist> All()
         {
- 	        throw new NotImplementedException();
+            return this.entitySet;
         }
     }
 }
